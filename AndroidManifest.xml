@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.call_name_system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/mytheme" >
+        <activity
+            android:name="com.example.call_name_system.Call_login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Call_root"></activity>
+        <activity android:name="com.example.viewpagetest.Viewpage"></activity>
+        <activity android:name="com.example.viewpagetest.thridFragment"></activity>
+        <service android:name=".util.myService"></service>
+        <activity android:name="OpenActivity"></activity>
+        <activity android:name="com.example.normalguestlogin.Callingsurface"></activity>
+        <activity android:name="com.example.normalguestlogin.Normalguestsurface"></activity>
+        <activity android:name="com.example.normalguestlogin.Yuyue"></activity>
+        <activity android:name="com.example.normalguestlogin.Foundsurface"></activity>
+        <activity android:name="com.example.normalguestlogin.Broadcast"></activity>
+       
+        <activity android:name="com.example.normalguestlogin.Person"></activity>
+        <activity android:name="Reginer"></activity>
+        <activity android:name="Reginers"></activity>
+
+       
+       
+    </application>
+
+</manifest>

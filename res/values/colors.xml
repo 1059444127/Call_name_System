@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="windowbackgroud">#44BBBF</color> 
+   <color name="grays">#222121</color>
+   <color name="black">#000000</color>  
+   <color name="white">#fff</color>  
+   <color name="gray">#808080</color>  
+   <color name="titleBgColor">#1AA6B5</color>  
+   <color name="titleTextColor">#fff</color>  
+   <color name="singNameColor">#10808E</color>  
+   <color name="btnClick">#EEE5DE</color>  
+   <color name="listViewDivider">#30A1A5</color> 
+   <color name="myblue">#01A9DB</color> 
+   
+</resources>
